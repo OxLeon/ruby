@@ -1,1 +1,9 @@
-// gitignore file
+# exclude everything except directory foo/bar
+# ignore all
+*
+# Except folders
+!starts/
+!.gitignore
+
+!examples.txt
+!*.rb
