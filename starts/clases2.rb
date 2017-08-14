@@ -44,8 +44,8 @@ puts dado.mostrar
 puts dado.mostrar
 
 
-# Podemos inicializar una clase para que haga lo que necesitemos 
-# 
+# Podemos inicializar una clase para que haga lo que necesitemos
+# initialize se ejecuta cuando se crea un objeto 
 # 
 class Dado
 

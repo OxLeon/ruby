@@ -6,11 +6,13 @@
 # después de pasarlo al método. Bueno, no lo sabes, Ruby tiene todo resuelto por nosotros!
 # De hecho, ya ha estabas haciendolo cada vez que utilizabas iteradores.
 
+# bloque de código (código entre do y end)
 class Array
   def cadaPar(&fueBloque_ahoraesProc)
     esPar = true  #  Empezamos con "true" porque las matrices comienzan con 0
 
     self.each do |objeto|
+      # pbjeto entrante que es un array
       if esPar
         fueBloque_ahoraesProc.call objeto
       end
@@ -32,10 +34,10 @@ end
   puts bolaImpar.to_s+' NO es un número par!'
 end
 
-# on el fin de hacer que tu método no ignore el bloque debes apoderarse de él y convertirlo en un proc y
+# con el fin de hacer que tu método no ignore el bloque debes apoderarse de él y convertirlo en un proc y
 # poner el nombre del proc al final de la lista de parámetros de tu método precedida por el signo &
 #
-#
+# bloque es mi ciclo do
 def profile descripcionDeBloque, &bloque
   inicioHora = Time.now
 

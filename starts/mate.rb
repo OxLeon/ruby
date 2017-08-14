@@ -15,6 +15,7 @@ puts((2-5).abs)
 =begin
   Es utilizado para generar numeros aleatorios
   que esten en el rango de 0 al numero que se de como parametro
+  si uso rand(100) me dara un numero entre 0 y 99
 =end
 puts rand
 puts rand
@@ -29,7 +30,7 @@ puts(rand(99999999999999999999999999999999999999999999999999999999999))
 puts('El pronosticador del tiempo dijo que hay '+rand(101).to_s+'% chances de que llueva,')
 puts('pero nunca debes confiar en él.')
 =begin
-  Tener numeros aleatorios que sean repetidos se utiliza un identificador llamafo sran
+  Tener numeros aleatorios que sean repetidos se utiliza un identificador llamadoo sran
 =end
 
 srand 1776

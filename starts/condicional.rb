@@ -12,6 +12,8 @@ puts 1 == 1
 
 puts 'alo' > 'lalo'
 
+# para encotrar dentro de una lista de nombres, siempre acomodará las mayusculas primero +
+# y posteriromente las minusculas.
 #  Ramificaciones ver que al final puede ser if ...  end o if ... else ... end
 
 puts 'Hola, ¿cual es tu nombre?'
@@ -32,6 +34,7 @@ end
 
 comando = ''
 
+# bucles de codigo
 while comando != 'adios'
   puts comando
   comando = gets.chomp
